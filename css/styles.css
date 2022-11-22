@@ -1,0 +1,185 @@
+/**********************************************************Elements' Style**********************************************************/
+body {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+p {
+    color: rgb(84, 84, 84);
+}
+/**********************************************************Headings**********************************************************/
+.big-heading {
+    line-height: 1.5;
+    font-weight:900;
+    color:white;
+    font-size: 350% !important;
+    padding-bottom: 3% !important;
+}
+.section-heading {
+    line-height: 1.5;
+    font-weight:bold;
+}
+.feature-title {
+    line-height: 1.5;
+}
+/******************************Backgrounds************************/
+.background-main {
+    background-color: #E0144C;
+}
+.background-secondary {
+    background-color: #FF4c68;
+}
+
+/******************************Buttons************************/
+.btn {
+    margin: 3% 5% 5% 0;
+    font-weight: 600;
+}
+
+.btn-dark {
+    --bs-btn-bg:rgb(57, 57, 57);
+    --bs-btn-border-color:rgb(57, 57, 57);
+}
+/******************************Images************************/
+.dog-main-image {
+    width: 300px;
+    transform: rotate(30deg);
+    top:25%;
+    position: absolute;    
+    right: 25%;
+}
+/**********************************************************Media Query**********************************************************/
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .dog-main-image {
+        position:static;
+        transform: rotate(0);
+    }
+}
+
+
+/******************************Navigation bar************************/
+.header-navigation {
+    padding: 0% 1% 0% 1% !important;
+}
+.navbar-brand {
+    color: white;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.navbar {
+    --bs-navbar-brand-color: white;
+    --bs-navbar-active-color: white;
+    --bs-navbar-hover-color: rgb(180, 179, 179);
+    --bs-navbar-brand-hover-color:  rgb(180, 179, 179);
+    --bs-navbar-color: white;
+    padding: 0 0 4.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+/******************************Containers************************/
+#title .container-fluid {
+    padding:3% 15% 5%;
+    text-align: left;
+}
+/******************************Meet************************/
+#meet {
+    margin:auto;
+    padding-top: 7%;
+}
+/******************************Features************************/
+#features {
+    background-color: #fff;
+    position: relative;
+    padding: 5% 15%;
+}
+.second-section-col {
+    padding:5%;
+}
+.smth{
+    margin-bottom:1rem ;
+    color: #FF4c68;
+}
+.smth:hover {
+    color:#E0144C; 
+}
+.cta-button {
+    margin-right: 1%;
+    margin-left:1%;
+}
+.social {
+    color:rgb(159, 159, 159);
+    font-weight: 600;
+    padding: 0.5rem;
+
+}
+.social:hover {
+    color: black;
+}
+
+/**********************************************************Press**********************************************************/
+.press-logo {
+    width: 13%;
+    margin: 20px 20px 50px;
+}
+#press {
+    padding-bottom: 0.5%;
+}
+
+/**********************************************************Testimonial section**********************************************************/
+#testimonials {
+    color:#fff;
+}
+.profile-image {
+    border-radius: 50%;
+    width: 8.5rem;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 5% 15%;
+}
+.testimonial-text {
+    line-height: 1.5;
+    font-weight:bold;
+}
+/**********************************************************Pricing section**********************************************************/
+#pricing {
+    padding: 5% 15%;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.price-text {
+    line-height: 1.5;
+    font-weight:bold;
+}
+/**********************************************************CTA**********************************************************/
+#cta {
+    color: #fff;
+    padding:3% 15% 5%;
+}
+#cta-text {
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+/**********************************************************Footer**********************************************************/
+#copyright {
+    font-weight: 600;
+    color: rgb(159, 159, 159);
+}
+#footer {
+    padding:3.5rem 0;
+}
+#also-copyright {
+    padding: 1rem 0;
+}
